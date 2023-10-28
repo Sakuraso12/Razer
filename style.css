@@ -1,0 +1,166 @@
+* { 
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    grid-gap: 0 69px
+}
+nav ul li {list-style: none;}
+nav ul li a {
+    color: #000;
+font-family: Ubuntu;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 2px;
+text-transform: uppercase;
+text-decoration: none;
+}
+.header__botom {
+    display: flex;
+    grid-gap: 0 38px;
+    padding-top: 106px;
+}
+.info h1 {
+    color: #000;
+font-family: Ubuntu;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 3.5px;
+text-transform: uppercase;
+}
+.info p {
+    color: #000;
+    font-feature-settings: 'case' on;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+.info button {
+    color: #FFF;
+font-family: Ubuntu;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 17px 77px;
+background: #000;
+border: none;
+outline: none;
+}
+.logo {
+    transition: all 0.8s;
+}
+.logo:hover {
+    transform: ratate(360deg);
+}
+nav ul li a{
+    transition: all 0.8s;
+}
+nav ul li a:hover {
+color:red
+}
+.info button {
+    transition: all 0.8s;
+}
+.info button:hover {
+    opacity:0.5;
+}
+.computer h2 {
+    color: #000;
+font-family: Ubuntu;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 3px;
+text-transform: uppercase;
+padding-bottom: 40px;
+}
+.grid__container {
+    display: grid;
+    grid-gap:0 42px;
+    grid-template-columns: repeat(3,1fr);
+}
+.grid__container2 {
+    display: grid;
+    grid-gap:0 42px;
+    grid-template-columns: repeat(4,1fr);
+}
+.grid__elm {
+    border: 1px solid #B1B1B1;
+    transition: all 0.8s;
+}
+.grid__elm:hover {
+    border: 1px solid #000;
+    box-shadow: inset 1px;;
+}
+.grid__elm h3 {
+    color: #000;
+/* Заголовок карточки */
+font-family: Ubuntu;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+letter-spacing: 0.8px;
+text-transform: uppercase;
+padding-top: 19px;
+padding-bottom: 8px;
+padding-left: 18px;
+}
+.grid__elm  img {
+    width: 320px;
+    height: 320px;
+}
+.grid__elm p {
+    color: #71FF64;
+
+/* Заголовок карточки */
+font-family: Ubuntu;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+letter-spacing: 0.8px;
+text-transform: uppercase;
+padding-left: 18px;
+}
+.peref h2 {
+    color: #000;
+font-family: Ubuntu;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 3px;
+text-transform: uppercase;
+padding-bottom: 40px;
+}
+.grid__elm2 img {
+    width: 160px;
+    height: 160px;
+}
